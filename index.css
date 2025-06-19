@@ -110,7 +110,32 @@ body{
   background-color: #6c3304;
   transform: translateY(3px);
 }
-
+.contentHeading{
+  color:orange;
+  font-size:30px;
+  display: flex;
+  justify-content: center;
+  font-family: pacifico;
+}
+.content{
+  margin: auto;
+  width: 100%;
+}
+.div{
+  background-color: #e28a1f;
+  height: fit-content;
+  width: fit-content;
+  border-radius: 20px;
+  border-color: black;
+  border-style: groove;
+  justify-content: center;
+  display: inline-block;
+}
+.chocolateCake,.strawberryCake{
+  height: 200px;
+  border-radius: 20px;
+  padding: 10px;
+}
 .footer{
   /* background-color: #0b0b0b; */
   height: 230px;
