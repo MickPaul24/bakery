@@ -28,7 +28,7 @@
           <li><a href="index.html">Home</a></li>
           <li><a href="gallery.html">Gallery</a></li>
           <li><a href="order.html">Order</a></li>
-          <li><a href="#">About</a></li>
+          <li><a href="#contact">About</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
       </div>
@@ -41,8 +41,8 @@
   </div>
   <div class="heroSection">
     <img class="heroPic" src="images/heroPic.jpg">
-    <p class="heroHeading"><i>Hot Loaf</i></p>
-    <p class="heroHeading1"><i>Your home of pastries!!</i></p>
+    <!-- <p class="heroHeading"><i>Hot Loaf</i></p> -->
+    <!-- <p class="heroHeading1"><i>Your home of pastries!!</i></p> -->
   </div>
     <div class="form">
       <form class="myTable" action="https://formspree.io/f/xjkvjwll" method="post">
@@ -51,7 +51,7 @@
         <input for="name" type="text" id="name" name="NAME:"placeholder="Enter your name here" required class="namespace">
           <br>
         <label for="contact" name="CONTACT" class="name">CONTACT:</label>
-        <input for="contact" type="number" id="contact" name="CONTACT:" placeholder="Enter your contact here" required class="namespace">
+        <input for="contact" type="text" id="contact" name="CONTACT:" placeholder="Enter your contact here" required class="namespace">
     </div>
     <div class="formsec2">
         <label for="email" name="email" class="name">EMAIL:</label></td>
@@ -64,13 +64,26 @@
         <input for="email" type="text"id="email" name="TYPE:" placeholder="Enter your email here" required class="namespace" >
         <br>
         <label for="country" name="country" class="name">FLAVOR:</label></td>
-        <input for="country" type="text" id="country" name="FLAVOR:" placeholder="Plain/Chocolate/Apple/Vanilla/Strawberry" required class="namespace">
+        <select id="product" name="FLAVOUR">
+          <option value="none">select flavor</option>
+          <option value="APPLE">APPLE</option>
+          <option value="CHOCOLATE">CHOCOLATE</option>
+          <option value="VALVET">VALVET</option>
+          <option value="CUPCAKES">CUPCAKES</option>
+        </select>
         <br>
         <label for="country" name="country" class="name">QUANTITY:</label></td>
-        <input for="country" type="text" id="country" name="QUANTITY:" placeholder="1kg/2kg/3kg/4kg/5kg" required class="namespace">
+        <select id="product" name="FLAVOUR">
+          <option value="none">select quantity</option>
+          <option value="1kg">1kg</option>
+          <option value="2kgs">2kgs</option>
+          <option value="3kgs">3kgs</option>
+          <option value="4kgs">4kgs</option>
+        </select>
+        <!-- <input for="country" type="text" id="country" name="QUANTITY:" placeholder="1kg/2kg/3kg/4kg/5kg" required class="namespace"> -->
         <br>
         <label for="country" name="country" class="name">CUSTOMIZATIONS:</label></td>
-        <input for="country" type="text" id="country" name="CUSTOMIZATION" placeholder="Enter your country here" required class="namespace"><br>
+        <input for="country" type="text" id="country" name="CUSTOMIZATION" placeholder="Enter your customizations" required class="namespace"><br>
         <label for="product">Choose a flavor:</label>
         <select id="product" name="FLAVOUR">
           <option value="none"> </option>
@@ -81,7 +94,7 @@
         </select>
     </div>
 <div class="formsec3">
-<button type="submit" class="submit_button"><b>SUBMIT ORDER</b></button>
+<button type="submit" class="submitButton"><b>SUBMIT ORDER</b></button>
 </div>
 </form>  
     </div>
@@ -97,7 +110,7 @@
         <img src="icons/delivery.png" class="deliveryIcon">
         <p class="deliveryText">We only offer delivery services for orders above $50 and only within Kampala metropolitan area. Between 7:00 am and 6:00 pm.</p>
       </div>
-      <div class="socialMedia" id="contact">
+      <div class="socialMedia" >
         <p><b>Follow / Contact  Us:</b></p>
         <a href="#"><img src="icons/instagram.png" class="icon"></a>
         <a href="#"><img src="icons/tiktok.png" class="icon"></a>
@@ -110,7 +123,7 @@
     <div class="footer2">
       <p class="footer2Text"><b>Terms of Service &#183;|&#183; Privacy Policy &#183;|&#183; Cookie Policy</p></b>
     </div>
-    <div class="footer3">
+    <div class="footer3" id="contact">
       <p class="footer3Text"><b>Hot Loaf</b> | Copyright ©2025 All rights reserved.</p>
     </div>
   </div>
