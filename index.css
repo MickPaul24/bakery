@@ -66,19 +66,20 @@ body{
   /* justify-content: center; */
   margin: auto;
   display: block;
-  background-image: url(images/heroPic.jpg);
+  background-image: url(images/background.jpg);
   background-repeat: no-repeat;
 }
 .heroHeading{
-  color:#7e4105;
+  color:#ee970c;
   display: block;
   font-size: 120px;
   font-family: pacifico;
   margin: 0px;
 }
 .heroHeading1{
-  color: #000000;
+  color: #ffffff;
   font-size: 40px;
+  margin-top: 0px;
 }
 .placeOrder{
   color: #000000;
@@ -87,6 +88,7 @@ body{
   border-style: solid;
   padding:10px;
   background-color: rgb(255, 165, 0);
+  margin-bottom:20px;
 }
 .placeOrder:hover{
   color: #e28a1f;
