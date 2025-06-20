@@ -110,6 +110,7 @@ body{
   height: auto;
   display:flex;
   flex-wrap: wrap;
+  justify-content: space-evenly;
 }
 .div{
   background-color: #533030;
