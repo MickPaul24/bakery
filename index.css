@@ -217,6 +217,13 @@ button:active{
   font-family: pacifico;
   margin: 0px;
 }
+.contentHeading{
+  color:orange;
+  font-size:20px;
+  display: flex;
+  justify-content: center;
+  /* font-family: pacifico; */
+}
 }
 .menu.active span:nth-child(1) {
   transform: rotate(45deg) translate(2px, 11px);
