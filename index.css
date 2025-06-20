@@ -63,11 +63,13 @@ body{
 }
 .heroContent{
   text-align: center;
-  /* justify-content: center; */
+  justify-content: center;
   margin: auto;
   display: block;
   background-image: url(images/background.jpg);
   background-repeat: no-repeat;
+  justify-self: center;
+  background-size: cover;
 }
 .heroHeading{
   color:#ee970c;
