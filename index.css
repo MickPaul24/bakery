@@ -1,7 +1,6 @@
 body{
   margin: 0px;
   background: rgb(62, 39, 35);
-  /* height: 3000px; */
 }
 .header{
   background-color: #ffa600;
@@ -9,8 +8,7 @@ body{
   height: 100px;
   display: flex;
   position: fixed;
-  z-index: 100;
-  /* box-shadow: 0px -20px 100px rgb(149, 107, 1) inset; */
+  z-index: 1;
 }
 .logo{
   /* background-color: #ff0000; */
@@ -63,42 +61,27 @@ body{
   width:25px;
   margin-top:4px;
 }
-.heroSection{
-  height: 700px;
-  background-color:rgb(0, 0, 0);
-  width: 100%;
-  
-}
-.heroSection img{
-  opacity: 0.3;
-  
-}
-.heroPic{
-  height: 600px;
-  width: 100%;
-  /* opacity:0.6; */
-  padding-top: 100px;
+.heroContent{
+  text-align: center;
+  /* justify-content: center; */
+  margin: auto;
+  display: block;
+  background-image: url(images/heroPic.jpg);
+  background-repeat: no-repeat;
 }
 .heroHeading{
-  color:#ffa500;
-  position: absolute;
-  top:65px;
-  left:450px;
+  color:#7e4105;
+  display: block;
   font-size: 120px;
   font-family: pacifico;
+  margin: 0px;
 }
 .heroHeading1{
-  color: #ffffff;
-  position: absolute;
-  top:350px;
-  left:500px;
+  color: #000000;
   font-size: 40px;
 }
 .placeOrder{
   color: #000000;
-  position: absolute;
-  top:450px;
-  left:570px;
   font-size: 30px;
   border-radius: 15px;
   border-style: solid;
@@ -122,22 +105,26 @@ body{
   width: 100%;
 }
 .div{
-  background-color: #e28a1f;
+  background-color: #533030;
   height: fit-content;
   width: fit-content;
   border-radius: 20px;
-  border-color: black;
+  border-color: rgb(255, 255, 255);
   border-style: groove;
   justify-content: center;
   display: inline-block;
+  color: #ffffff;
+  margin:10px;
 }
 .chocolateCake,.strawberryCake{
   height: 200px;
   border-radius: 20px;
   padding: 10px;
+  border-style: solid;
+  border-color: #ffa600;
+  margin:4px;
 }
 .footer{
-  /* background-color: #0b0b0b; */
   height: 230px;
   box-shadow: 0px -20px 70px black;
 }
@@ -145,10 +132,6 @@ body{
   display: flex;
   background-color: #ffa600a1;
   box-sizing: 0px 0px 10px black;
-  /* height: 100px; */
-  /* border-style:solid ; */
-  /* border-bottom-color:#f9f900 ; */
-  /* border-bottom-width:1px ; */
 }
 .About{
   padding-left: 10px;
