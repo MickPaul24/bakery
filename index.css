@@ -140,6 +140,9 @@ body{
 button{
   border-radius: 20px;
   background-color: rgb(255, 165, 0);
+  border-style: groove;
+  border-color: white;
+  padding: 5px;
 }
 button:active{
   color:white;
