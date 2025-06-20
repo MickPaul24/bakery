@@ -52,7 +52,7 @@ body{
   border-color:rgb(103, 101, 97);
   border-style: solid;
   height: 30px;
-  display: none;
+  /* display: none; */
 }
 .menu span{
   background-color: black;
