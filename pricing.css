@@ -100,10 +100,11 @@ body{
   transform: translateY(3px);
 }
 .content{
-  height: 800px;
+  /* height: 800px; */
   width: 100%;
   margin-top: 2px;
   margin: auto;
+  justify-content: space-evenly;
 }
 .contentHeading{
   color:rgb(255, 165, 0);
