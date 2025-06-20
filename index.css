@@ -80,7 +80,7 @@ body{
 }
 .heroHeading1{
   color: #ffffff;
-  font-size: 40px;
+  font-size: 50px;
   margin-top: 0px;
 }
 .placeOrder{
@@ -99,14 +99,15 @@ body{
 }
 .contentHeading{
   color:orange;
-  font-size:30px;
+  font-size:50px;
   display: flex;
   justify-content: center;
-  font-family: pacifico;
+  /* font-family: pacifico; */
 }
 .content{
   margin: auto;
   width: 100%;
+  display:flex;
 }
 .div{
   background-color: #533030;
@@ -119,6 +120,8 @@ body{
   display: inline-block;
   color: #ffffff;
   margin:10px;
+  text-align: center;
+  display: flex;
 }
 .chocolateCake,.strawberryCake{
   height: 200px;
