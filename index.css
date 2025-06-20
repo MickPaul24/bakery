@@ -107,7 +107,9 @@ body{
 .content{
   margin: auto;
   width: 100%;
+  height: auto;
   display:flex;
+  flex-wrap: wrap;
 }
 .div{
   background-color: #533030;
@@ -123,6 +125,10 @@ body{
   text-align: center;
   display: flex;
 }
+.div p{
+  padding: 0;
+
+}
 .chocolateCake,.strawberryCake{
   height: 200px;
   border-radius: 20px;
@@ -130,6 +136,13 @@ body{
   border-style: solid;
   border-color: #ffa600;
   margin:4px;
+}
+button{
+  border-radius: 20px;
+  background-color: rgb(255, 165, 0);
+}
+button:active{
+  color:white;
 }
 .footer{
   height: 230px;
