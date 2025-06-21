@@ -49,14 +49,14 @@ body{
   border-radius: 9px;
   border-color:rgb(103, 101, 97);
   border-style: solid;
-  height: 30px;
+  height: 28px;
   /* display: none; */
 }
 .menu span{
   background-color: black;
   height: 4px;
   width:25px;
-  margin-top:4px;
+  margin-top: 4px ;
 }
 .heroContent{
   text-align: center;
@@ -203,9 +203,9 @@ button:active{
   height: 40px;
   display:inline-block;
 }
-@media(max-width:1250px){
+@media(max-width:790px){
   .links{
-    /* display: none; */
+    display: none;
   }
   .heroHeading{
   color:#ee970c;
