@@ -26,19 +26,19 @@ body{
   display: flex;
   margin-top: 25px;
 }
-.links ul{
+.links {
   display: flex;
   flex-direction: row;
   list-style: none;
 }
-.links ul li a{
+.links li a{
   margin-left: 25px;
   text-decoration: none;
   color:black;
   font-size: 20px;
   padding:10px;
 }
-.links ul li a:hover{
+.links li a:hover{
   background-color: rgb(62, 39, 35);
   border-radius: 6px;
   color:rgb(255, 165, 0);
@@ -222,9 +222,15 @@ button:active{
   font-size:20px;
   display: flex;
   justify-content: center;
-  /* font-family: pacifico; */
+
+}
+.links.active {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
 }
 }
+
 .menu.active span:nth-child(1) {
   transform: rotate(45deg) translate(2px, 11px);
 }
