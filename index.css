@@ -11,20 +11,17 @@ body{
   z-index: 1;
 }
 .logo{
-  /* background-color: #ff0000; */
-  width: 20%;
   height: 90px;
   margin-top:25px;
   margin-left:20px;
 }
 .menuLinks{
-  /* background-color: #0000ff; */
-  width: 60%;
   height: 90px;
   position: absolute;
-  right:-200px;
+  right:50px;
   display: flex;
   margin-top: 25px;
+  
 }
 .links {
   display: flex;
@@ -208,7 +205,7 @@ button:active{
 }
 @media(max-width:1250px){
   .links{
-    display: none;
+    /* display: none; */
   }
   .heroHeading{
   color:#ee970c;
