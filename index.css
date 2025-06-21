@@ -37,9 +37,12 @@ body{
     }
     .nav-link{
       transition: 0.7s ease;
+      padding: 8px;
+      border-radius: 10px;
     }
     .nav-link:hover{
-      color:blueviolet;
+      color:orange;
+      background-color: #552905;
     }
     .hamburger{
       display: none;
@@ -244,7 +247,7 @@ button:active{
         gap:0px;
         flex-direction: column;
         background-color: rgb(241, 143, 5);
-        width: 88%;
+        width: 89%;
         text-align: center;
         transition: 0.3s;
       }
