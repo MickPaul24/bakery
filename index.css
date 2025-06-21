@@ -50,7 +50,7 @@ body{
   border-color:rgb(103, 101, 97);
   border-style: solid;
   height: 28px;
-  /* display: none; */
+  display: none;
 }
 .menu span{
   background-color: black;
@@ -207,6 +207,24 @@ button:active{
   .links{
     display: none;
   }
+.menu{
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  width: 27px;
+  padding: 6px;
+  border-radius: 9px;
+  border-color:rgb(103, 101, 97);
+  border-style: solid;
+  height: 28px;
+  /* display: none; */
+}
+.menu span{
+  background-color: black;
+  height: 4px;
+  width:25px;
+  margin-top: 4px ;
+}
   .heroHeading{
   color:#ee970c;
   display: block;
@@ -226,7 +244,10 @@ button:active{
   flex-direction: column;
   list-style: none;
 }
+
 }
+
+
 
 .menu.active span:nth-child(1) {
   transform: rotate(45deg) translate(2px, 11px);
