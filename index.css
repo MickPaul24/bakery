@@ -232,7 +232,7 @@ button:active{
         top:70px;
         gap:0px;
         flex-direction: column;
-        background-color: rgb(241, 143, 5);
+        background-color:#ffa600;
         width: 89%;
         text-align: center;
         transition: 0.3s;
