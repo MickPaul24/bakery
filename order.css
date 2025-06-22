@@ -86,6 +86,9 @@ body{
 .namespace{
   border-radius: 20px;
   height: 25px;
+  /* background-color: #552905; */
+  border-style: solid;
+  border-width: 1px;
 }
 select{
   height: 25px;
