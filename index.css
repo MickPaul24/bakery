@@ -156,7 +156,7 @@ button:active{
 }
 .footer1{
   display: flex;
-  background-color: #ffa600a1;
+  background-color: #ffa600;
   box-sizing: 0px 0px 10px black;
 }
 .About{
@@ -249,7 +249,7 @@ button:active{
       }
       .footer1{
       display: block;
-      background-color: #ffa600a1;
+      background-color: #ffa600;
       box-sizing: 0px 0px 10px black;
       }
     }
