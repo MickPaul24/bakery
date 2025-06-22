@@ -214,6 +214,9 @@ button:active{
 
     
     @media(max-width:767px){
+      header{
+        height: 70px;
+      }
       .hamburger{
         display: block;
       }
