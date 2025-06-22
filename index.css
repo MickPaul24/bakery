@@ -161,10 +161,10 @@ button:active{
 }
 .About{
   padding-left: 10px;
-  width: 40%;
+  /* width: 40%; */
 }
 .delivery{
-  width:40%;
+  /* width:40%; */
   border-left-style: solid;
   padding-left:10px ;
 }
@@ -175,7 +175,7 @@ button:active{
   display: inline-flex;
 }
 .socialMedia{
-  width:30%;
+  /* width:30%; */
   border-left-style: solid;
   padding-left:10px ;
 }
@@ -246,5 +246,10 @@ button:active{
 
       .heroHeading{
         font-size: 65px;
+      }
+      .footer1{
+      display: block;
+      background-color: #ffa600a1;
+      box-sizing: 0px 0px 10px black;
       }
     }
