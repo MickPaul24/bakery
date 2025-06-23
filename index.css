@@ -3,6 +3,13 @@ body{
   background: rgb(62, 39, 35);
   font-family:Arial, Helvetica, sans-serif;
 }
+.logo{
+  height: 70px;
+  /* width: 140px; */
+  border-style:solid;
+  border-radius: 20px;
+  border-color: #000000;
+}
     header{
       background-color: #ffa600;
       position:fixed;
@@ -104,8 +111,6 @@ body{
   color:orange;
   font-size:40px;
   display: flex;
-  justify-content: center;
-  /* font-family: pacifico; */
 }
 .content{
   margin: auto;
@@ -248,6 +253,13 @@ button:active{
       .heroHeading{
         font-size: 65px;
       }
+      .contentHeading{
+      margin: auto;
+      color:orange;
+      font-size:30px;
+      display:flex;
+      justify-content: center;
+    }
       .footer1{
       display: block;
       background-color: #ffa600;
