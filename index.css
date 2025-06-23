@@ -12,7 +12,7 @@ body{
   border-width: 2px;
 }
 .space{
-  height: 100px; 
+  height: 80px; 
   width: 100%; 
   background-color: rgb(231, 8, 8);
 }
@@ -132,9 +132,10 @@ body{
   display:flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
+  /* background-color: #000000; */
 }
 .div{
-  background-color: #533030;
+  background-color: #3a2222;
   height: fit-content;
   width: 20%;
   border-radius: 20px;
