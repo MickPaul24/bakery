@@ -229,7 +229,6 @@ select{
       }
       .content{
         background-size: contain;
-        padding: 5px;
       }
       .footer1{
       display: block;
