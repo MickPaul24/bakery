@@ -153,7 +153,7 @@ body{
 .chocolateCake,.strawberryCake{
   height: 130px;
   border-radius: 20px;
-  padding: 7px;
+  padding: 5px;
   border-style: solid;
   border-color: #ffa600;
   margin:4px;
@@ -293,7 +293,7 @@ button:active{
       font-family: parisienne;
     }
     .div{
-      width:45%;
+      width:43%;
     }
       .footer1{
       display: block;
