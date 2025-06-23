@@ -118,6 +118,10 @@ body{
   margin-top: 2px;
   margin: auto;
   justify-content: space-evenly;
+  background-image: url(images/cake7.jpg);
+  background-size: cover;
+  height: 400px;
+  background-repeat: no-repeat;
 }
 .contentHeading{
   color:rgb(255, 165, 0);
