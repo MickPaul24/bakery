@@ -253,6 +253,12 @@ button:active{
       .nav-menu.active{
         left:0;
       }
+      header{
+        height: 70px;
+      }
+      .logo{
+        height: 40px;
+      }
       .nav-branding{
       font-size: 23px;
       color: #000000;
