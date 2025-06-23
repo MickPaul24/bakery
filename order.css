@@ -235,5 +235,8 @@ select{
       background-color: #ffa600;
       box-sizing: 0px 0px 10px black;
       }
+        .footer3Text{
+    font-size: 12px;
+  }
     }
 

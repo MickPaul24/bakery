@@ -276,4 +276,7 @@ button:active{
       .socialMedia{
         width: auto;
       }
+        .footer3Text{
+    font-size: 12px;
+  }
     }

@@ -311,6 +311,9 @@
   .socialMedia{
   width: auto;
   }
+  .footer3Text{
+    font-size: 12px;
+  }
   }
 
   @media(max-width:350px){
