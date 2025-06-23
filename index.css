@@ -8,7 +8,7 @@ body{
   /* width: 140px; */
   border-style:solid;
   border-radius: 20px;
-  border-color: #000000;
+  border-color: #ffffff;
 }
     header{
       background-color: #ffa600;
@@ -132,7 +132,7 @@ body{
   color: #ffffff;
   margin:10px;
   text-align: center;
-  display: flex;
+  display: block;
 }
 .div p{
   padding: 0;
