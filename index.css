@@ -291,6 +291,9 @@ button:active{
       color: #000000;
       font-family: parisienne;
     }
+    .div{
+      width:40%;
+    }
       .footer1{
       display: block;
       background-color: #ffa600;
