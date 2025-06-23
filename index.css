@@ -160,6 +160,7 @@ body{
   border-style: solid;
   border-color: #ffa600;
   margin:4px;
+  box-shadow: inset 0px 0px 9px#ffa600;
 }
 button{
   color: #000000;
