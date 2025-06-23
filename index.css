@@ -269,6 +269,11 @@ button:active{
       display:flex;
       justify-content: center;
     }
+    .nav-branding{
+      font-size: 30px;
+      color: #000000;
+      font-family: parisienne;
+    }
       .footer1{
       display: block;
       background-color: #ffa600;
