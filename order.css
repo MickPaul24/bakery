@@ -89,13 +89,16 @@ body{
   justify-content: center;
   padding-top:100px;
  background-image: url(images/cake6.jpg);
- background-repeat: no-repeat;
+ /* background-repeat: no-repeat; */
  background-size: cover;
 
 }
 .form{
   color:white;
   padding-top:50px;
+}
+label{
+  color:#ffa600;
 }
 .namespace{
   border-radius: 20px;
