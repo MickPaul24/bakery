@@ -123,7 +123,7 @@ body{
 }
 .contentHeadingText{
   margin: auto;
-  font-family: parisienne;
+  /* font-family: parisienne; */
 }
 .content{
   margin: auto;
@@ -273,7 +273,7 @@ button:active{
         height: 70px;
       }
       .space{
-        height: 80px;
+        height: 60px;
       }
       .logo{
         height: 40px;
@@ -287,7 +287,7 @@ button:active{
       font-size:30px;
       display:flex;
       justify-content: center;
-      font-family: parisienne;
+      /* font-family: parisienne; */
     }
     .nav-branding{
       font-size: 23px;
