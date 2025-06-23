@@ -313,7 +313,7 @@
   }
   }
 
-  @media(max-width:372px){
+  @media(max-width:370px){
     .div{
       width: auto;
     }
