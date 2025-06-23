@@ -117,10 +117,10 @@ body{
   width: 100%;
   margin-top: 2px;
   margin: auto;
-  justify-content: space-evenly;
+  justify-content: center;
   background-image: url(images/cake7.jpg);
   background-size: cover;
-  height: 400px;
+  height: 600px;
   background-repeat: no-repeat;
 }
 .contentHeading{
@@ -189,7 +189,7 @@ button:active{
   display: inline-flex;
 }
 .socialMedia{
-  /* width:30%; */
+  width:50%;
   border-left-style: solid;
   padding-left:10px ;
   border-width: 5px;
@@ -272,5 +272,8 @@ button:active{
       display: block;
       background-color: #ffa600;
       box-sizing: 0px 0px 10px black;
+      }
+      .socialMedia{
+        width: auto;
       }
     }

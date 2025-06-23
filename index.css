@@ -312,3 +312,11 @@
   width: auto;
   }
   }
+
+  @media(max-width:372px){
+    .div{
+      width: auto;
+    }
+  }
+    
+  
