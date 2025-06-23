@@ -227,6 +227,9 @@ select{
       .logo{
         height: 40px;
       }
+      .content{
+        background-size: contain;
+      }
       .footer1{
       display: block;
       background-color: #ffa600;
