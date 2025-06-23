@@ -11,6 +11,11 @@ body{
   border-color: #ffffff;
   border-width: 2px;
 }
+.space{
+  height: 100px; 
+  width: 100%; 
+  background-color: rgb(231, 8, 8);
+}
     header{
       background-color: #ffa600;
       position:fixed;
@@ -261,6 +266,9 @@ button:active{
       }
       header{
         height: 70px;
+      }
+      .space{
+        height: 80px;
       }
       .logo{
         height: 40px;
