@@ -44,6 +44,7 @@ body{
     .nav-branding{
       font-size: 30px;
       color: #000000;
+      font-family: parisienne;
     }
     .nav-link{
       transition: 0.7s ease;
@@ -112,6 +113,9 @@ body{
   color:orange;
   font-size:40px;
   display: flex;
+}
+.contentHeadingText{
+  margin: auto;
 }
 .content{
   margin: auto;
