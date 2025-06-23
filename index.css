@@ -136,7 +136,7 @@ body{
 .div{
   background-color: #533030;
   height: fit-content;
-  width: fit-content;
+  width: 40%;
   border-radius: 20px;
   border-color: rgb(255, 255, 255);
   border-style: groove;
