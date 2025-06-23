@@ -42,7 +42,7 @@ body{
 
     }
     .nav-branding{
-      font-size: 30px;
+      font-size: 40px;
       color: #000000;
       font-family: parisienne;
     }
@@ -172,6 +172,8 @@ button:active{
 .About{
   padding-left: 10px;
   /* width: 40%; */
+  border-left-style: solid;
+  border-width: 5px;
 }
 .delivery{
   /* width:40%; */
@@ -187,7 +189,9 @@ button:active{
 .socialMedia{
   /* width:30%; */
   border-left-style: solid;
+  border-width: 5px;
   padding-left:10px ;
+  
 }
 .footer2{
   color:#000000;
