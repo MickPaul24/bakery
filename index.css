@@ -7,8 +7,9 @@ body{
   height: 60px;
   /* width: 140px; */
   border-style:solid;
-  border-radius: 20px;
+  border-radius: 60px;
   border-color: #ffffff;
+  border-width: 2px;
 }
     header{
       background-color: #ffa600;
