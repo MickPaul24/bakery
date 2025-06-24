@@ -155,6 +155,10 @@ body{
   padding: 5px;
   box-shadow: inset 0px 0px 10px orange ;
   margin: 10px;
+  transition: 0.4s;
+}
+.galleryImages:hover{
+  transform: scale(1.1);
 }
 button{
   border-radius: 20px;
