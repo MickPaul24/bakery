@@ -117,11 +117,14 @@ body{
   width: 100%;
   margin-top: 2px;
   margin: auto;
-  justify-content: center;
-  background-image: url(images/cake7.jpg);
+  justify-content: space-evenly;
+  background-image: url(images/cake6.jpg);
+  /* background-color: #6c3304; */
   background-size: cover;
-  height: 600px;
+  height: auto;
   background-repeat: no-repeat;
+  display: flex;
+  flex-wrap: wrap;
 }
 .contentHeading{
   color:rgb(255, 165, 0);
@@ -131,26 +134,27 @@ body{
   margin-left:300px;
   display: block;
 }
-.div{
-  background-color: #533030;
-  height: fit-content;
+
+.image{
+  /* height: 80px; */
   width: fit-content;
-  border-radius: 20px;
-  border-color: rgb(255, 255, 255);
-  border-style: groove;
-  justify-content: center;
-  display: inline-block;
-  color: #ffffff;
-  margin:10px;
-  text-align: center;
-}
-.chocolateCake,.strawberryCake{
-  height: 200px;
-  border-radius: 20px;
-  padding: 10px;
+  border-color: white;
+  box-shadow: 0px 0px 10px #ffa500;
   border-style: solid;
-  border-color: #ffa600;
-  margin:4px;
+  border-radius: 20px;
+  display: flex;
+  margin: 10px;
+  
+}
+.galleryImages{
+  height: 250px;
+  width: auto;
+  border-radius: 20px;
+  border-style: solid;
+  border-color: #e28a1f;
+  padding: 5px;
+  box-shadow: inset 0px 0px 10px orange ;
+  margin: 10px;
 }
 button{
   border-radius: 20px;

@@ -104,8 +104,9 @@ label{
   border-radius: 20px;
   height: 25px;
   /* background-color: #552905; */
-  border-style: solid;
+  border-style: dashed;
   border-width: 1px;
+  border-color: #ffa600;
 }
 select{
   height: 25px;
