@@ -30,9 +30,22 @@ button{
   border-style: solid;
   border-color:white;
   font-size: 30px;
-  padding: 10px;
+  padding: 7px;
   transition: 0.4s;
 }
 button:hover{
   color:white;
+}
+
+@media(max-width:767px) {
+  header{
+    font-size: 30px;
+  }
+  .general1{
+    font-size: 20px;
+  }
+  button{
+    padding: 3px;
+    font-size: 25px;
+  }
 }
