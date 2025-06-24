@@ -167,6 +167,9 @@ select{
   margin:auto;
   align-self: center;
 }
+  .footer2Text a{
+    color:rgb(255, 165, 0);
+  }
 .footer3{
   color:#ffffff;
   margin: auto;

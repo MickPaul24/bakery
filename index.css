@@ -223,6 +223,9 @@
   align-self: center;
   color:rgb(255, 165, 0);
   }
+  .footer2Text a{
+    color:rgb(255, 165, 0);
+  }
   .footer3{
   color:#ffffff;
   margin: auto;
