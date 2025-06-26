@@ -169,8 +169,9 @@
   color: #000000;
   border-radius: 20px;
   background-color: rgb(255, 165, 0);
-  border-style: groove;
+  border-style: solid;
   border-color: white;
+  border-width: 1px;
   padding: 5px;
   }
   button:active{
