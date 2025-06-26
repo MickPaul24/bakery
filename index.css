@@ -121,7 +121,9 @@
   .contentHeading{
   color:orange;
   font-size:40px;
-  display: flex;
+  display: block;
+  justify-content: center;
+  text-align: center;
   }
   .contentHeadingText{
   margin: auto;
