@@ -93,6 +93,9 @@ body{
  background-size: cover;
 
 }
+button:hover{
+  cursor: pointer;
+}
 .form{
   color:white;
   padding-top:50px;

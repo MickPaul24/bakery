@@ -170,6 +170,9 @@ button{
 button:active{
   color:white;
 }
+button:hover{
+  cursor: pointer;
+}
 .footer{
   height: 230px;
   box-shadow: 0px -20px 70px black;
