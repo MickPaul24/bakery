@@ -195,58 +195,58 @@ select{
 
 
     
-    @media(max-width:767px){
-      
-      .hamburger{
-        display: block;
-      }
-      .hamburger.active .bar:nth-child(2){
-        opacity: 0;
-      }
-      .hamburger.active .bar:nth-child(1){
-        transform:translateY(8px)rotate(45deg);
-      }
-      .hamburger.active .bar:nth-child(3){
-        transform:translateY(-8px)rotate(-45deg);
-      }
-      .nav-menu{
-        position: fixed;
-        left:-100%;
-        top:70px;
-        gap:0px;
-        flex-direction: column;
-        background-color:  #ffa600;
-        width: 89%;
-        text-align: center;
-        transition: 0.3s;
-      }
-      .nav-item{
-        margin:16px 0;
-      }
-      .nav-menu.active{
-        left:0;
-      }
-      .nav-branding{
-      font-size: 23px;
-      color: #000000;
-      font-family: parisienne;
-    }
-    header{
-        height: 70px;
-      }
-      .logo{
-        height: 40px;
-      }
-      .content{
-        background-size: contain;
-      }
-      .footer1{
-      display: block;
-      background-color: #ffa600;
-      box-sizing: 0px 0px 10px black;
-      }
-        .footer3Text{
-    font-size: 12px;
+@media(max-width:767px){
+  
+  .hamburger{
+    display: block;
   }
-    }
+  .hamburger.active .bar:nth-child(2){
+    opacity: 0;
+  }
+  .hamburger.active .bar:nth-child(1){
+    transform:translateY(8px)rotate(45deg);
+  }
+  .hamburger.active .bar:nth-child(3){
+    transform:translateY(-8px)rotate(-45deg);
+  }
+  .nav-menu{
+    position: fixed;
+    left:-100%;
+    top:70px;
+    gap:0px;
+    flex-direction: column;
+    background-color:  #ffa600;
+    width: 89%;
+    text-align: center;
+    transition: 0.3s;
+  }
+  .nav-item{
+    margin:16px 0;
+  }
+  .nav-menu.active{
+    left:0;
+  }
+  .nav-branding{
+  font-size: 23px;
+  color: #000000;
+  font-family: parisienne;
+}
+header{
+    height: 70px;
+  }
+  .logo{
+    height: 40px;
+  }
+  .content{
+    background-size: contain;
+  }
+  .footer1{
+  display: block;
+  background-color: #ffa600;
+  box-sizing: 0px 0px 10px black;
+  }
+    .footer3Text{
+font-size: 12px;
+}
+}
 
