@@ -329,9 +329,14 @@
   display: block;
   background-color: #ffa600;
   box-sizing: 0px 0px 10px black;
+  /* margin-bottom: 0px; */
+  }
+  .footer2{
+    margin-top: 0px;
   }
   .socialMedia{
   width: auto;
+  padding-bottom: 7px;
   }
   .footer3Text{
     font-size: 12px;
