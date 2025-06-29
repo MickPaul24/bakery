@@ -239,7 +239,7 @@
   .footer3{
   color:#ffffff;
   margin: auto;
-  height: 50px;
+  /* height: 50px; */
   margin: auto;
   display: flex;
   background-color: black;
@@ -247,6 +247,8 @@
   .footer3Text{
   margin:auto;
   align-self: center;
+  margin-top: 5px;
+  margin-bottom: 5px;
   }
   .icon{
   height: 40px;
